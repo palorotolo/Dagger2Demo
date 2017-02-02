@@ -16,7 +16,7 @@ public class UtilsViewHolder {
         this.convertView = convertView;
     }
 
-public static UtilsViewHolder createCommonViewHolder (View convertView, ViewGroup parent, int resId){
+public static UtilsViewHolder create (View convertView, ViewGroup parent, int resId){
     UtilsViewHolder holder = null;
     if (convertView == null) {
         convertView = View.inflate(parent.getContext(), resId, null);
